@@ -45,13 +45,15 @@ This endpoint sends a notification to the user if a deposit fails due to insuffi
 }
 </code>
 
--userId: ID of the user.
--amount: The amount of the deposit that was attempted.
--notification_type: Type of notification ('email' or 'mobile').
+- userId: ID of the user.
+
+* amount: The amount of the deposit that was attempted.
+
+- notification_type: Type of notification ('email' or 'mobile').
 
 #### Response
 
--200 OK: Notification sent.
--400 Bad Request: Balance is sufficient.
--404 Not Found: User not found.
--500 Internal Server Error: An error occurred.
+- 200 OK: Notification sent.
+- 400 Bad Request: Balance is sufficient.
+- 404 Not Found: User not found.
+- 500 Internal Server Error: An error occurred.

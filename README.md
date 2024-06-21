@@ -2,18 +2,19 @@
 
 This project is an Express.js application that sends email or SMS notifications to users when a deposit fails due to insufficient funds.
 
-##### Prerequisites
+### Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
 
--Node.js (v14.x or later)
--npm (v6.x or later)
+- Node.js (v14.x or later)
+- npm (v6.x or later)
 
--clone repo
-<code>
+### clone repo
+
+```
 git clone https://github.com/thegodhope/NotificationsTask.git
 cd your-repository
-</code>
+```
 
 ### Install Dependencies
 

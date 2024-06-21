@@ -22,6 +22,7 @@ const sendEmailNotification = async (email, subject, message) => {
 
 const sendMobileNotification = async (mobile, message) => {
   // mobile notification code comes here
+  console.log(`Sending SMS to ${mobile}: ${message}`);
 };
 
 module.exports = {

@@ -19,6 +19,10 @@ cd your-repository
 
 <code>npm install</code>
 
+### Start server
+
+<code>npm start</code>
+
 ### Environment Variables
 
 Create a .env file in the root directory and add the following environment variables:
@@ -37,13 +41,13 @@ This endpoint sends a notification to the user if a deposit fails due to insuffi
 
 ###### Request Body
 
-<code>
+```
 {
   "userId": 1,
   "amount": 500,
   "notification_type": "email"
 }
-</code>
+```
 
 - userId: ID of the user.
 
